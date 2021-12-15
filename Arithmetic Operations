@@ -1,0 +1,42 @@
+#include<stdio.h>
+
+int main()
+
+{
+    //ADDITION
+    int num1,num2,sum;
+    printf("Enter the numbers to be added:");
+    scanf("%d%d",&num1,&num2);
+    sum=num1+num2;
+    printf("Your answer is=%d\n",sum);
+
+    //SUBSTRACTION
+    int num3,num4,substract;
+    printf("Enter the number to be substracted:");
+    scanf("%d%d",&num3,&num4);
+    substract=num3-num4;
+    printf("Your answer is=%d\n",substract);
+
+    //MULTIPLICATION
+    int num5,num6,multiply;
+    printf("Enter the number to be multiplied:");
+    scanf("%d%d",&num5,&num6);
+    multiply=num5*num6;
+    printf("Your answer is=%d\n",multiply);
+
+    //DIVISION
+    int num7,num8,division,quotient,remainder;
+    printf("Enter the dividend and divisor respectively:");
+    scanf("%d%d",&num7,&num8);
+    quotient=num7/num8;
+    remainder=num7%num8;
+    printf("The quotient is=%d\n",quotient);
+    printf("The remainder is=%d",remainder);
+
+
+
+
+
+
+    return 0;
+}
