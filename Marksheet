@@ -1,0 +1,59 @@
+#include<stdio.h>
+
+int main()
+
+{
+   printf(" NAME = PALLAVI TEMBHRE\n");
+   printf("CLASS = 12TH\n");
+   printf(" ROLL NO. = 125564555\n");
+
+   float sub1, sub2 ,sub3 ,sub4 , sub5;
+
+   printf("Enter the marks of Hindi:");
+   scanf("%f", &sub1);
+
+   printf("\nEnter the marks of English:");
+   scanf("%f", &sub2);
+
+   printf("\nEnter the marks of Maths:");
+   scanf("%f", &sub3);
+
+   printf("\nEnter the marks of Physics:");
+   scanf("%f", &sub4);
+
+   printf("\nEnter the marks of Chemistry:");
+   scanf("%f", &sub5);
+
+   float total = sub1+sub2+sub3+sub4+sub5;
+   float percentage = ((total/500)*100);
+
+   printf("__________________________________________________________\n");
+   printf("SUBJECT            MAX. MARKS              OBT.MARKS\n");
+   printf("__________________________________________________________\n");
+   printf(" Hindi                100                      %f\n",sub1);
+   printf("English               100                      %f\n",sub2);
+   printf("Maths                 100                      %f\n",sub3);
+   printf("physics               100                      %f\n",sub4);
+   printf("Chemistry             100                      %f\n",sub5);
+   printf("__________________________________________________________\n");
+   printf("    TOTAL MARKS=%f           PERCENTAGE=%f %\n",total,percentage);
+   printf("___________________________________________________________\n");
+
+
+
+
+   if(percentage>=33){
+       printf("\nPASS");
+   }
+   else{
+       printf("\nFAIL");
+   }
+    
+
+
+
+
+
+
+    return 0;
+}
