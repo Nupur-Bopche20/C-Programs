@@ -1,0 +1,30 @@
+#include<stdio.h>
+
+int main()
+
+{   int sub;
+    printf("1-201-Engineering physics\n 2-202-Basic Electrical engineering\n 3-203-FCP\n  4-204- Basic civil engineerinf & engineering mechnaics\n 5-205- Engineering graphics abd CAD\n");
+    printf("Enter the subject number to know the respective subject teacher\n");
+    scanf("%d",&sub);
+    if(sub==1){
+        printf("Your subject teacher is Mr. PK Sharma\n");
+    }
+    else if(sub==2){
+         printf("Your subject teacher is Miss.Pallavi Gajbhiye & Mr.PN Shukla\n");
+    }
+
+     else if(sub==3){
+        printf("Your subject teacher is Dr.Kavita Chourasia\n");
+    }
+
+ else if(sub==4){
+        printf("Your subject teacher is Mr. Fahad Ahmad and  Mr.Dilip Sharma\n");
+    }
+
+ else if(sub==5){
+        printf("Your subject teacher is Mrs.Maheshwari Rahangdale & Dr.Ajay Zeronia \n");
+    }
+
+
+    return 0;
+}
