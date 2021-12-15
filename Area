@@ -1,0 +1,34 @@
+#include<stdio.h>
+
+int main()
+
+{
+    int lenght,breadth,radius,pi,base,height;
+    pi=22/7;
+    //AREA OF RECTANGLE
+    printf("enter the value of lenght\n");
+    scanf("%d",&lenght);
+     printf("enter the value of breadth\n");
+    scanf("%d",&breadth);
+
+    printf("the area of rectangle is %d\n", lenght*breadth);
+
+
+    //AREA OF CIRCLE
+    printf("enter the value of radius\n");
+    scanf("%d", &radius);
+    printf("the area of circle is %d\n",pi*radius*radius);
+
+
+
+    //AREA OF TRIANGLE
+    printf("enter the value of base\n");
+    scanf("%d", &base);
+    printf("enter the value of height\n");
+    scanf("%d", &height);
+    printf("the area of triangle is %d",(base*height)/2);
+
+
+
+    return 0;
+}
