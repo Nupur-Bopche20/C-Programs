@@ -1,0 +1,48 @@
+#include<stdio.h>
+
+int main()
+
+{
+    printf("B=BURGER\n F=FRENCH FRY \n P=PIZZA\n S= SANDWICH\n");
+
+    char ss;
+    int n,x;
+    scanf("%c",&ss);
+
+    switch(ss)
+    {
+        case'B': 
+        printf("you have choosen burger\n");
+        scanf("%d",&n);
+        x=n*200;
+        printf("burger=Rs %d",x);
+        break;
+
+
+       case'F' :
+        printf("you have choosen french fry\n");
+       scanf("%d",&n);
+       x=n*50 ;
+       printf("french fry=Rs %d",x);
+       break; 
+
+       case 'P':
+        printf("you have choosen pizza\n");
+       scanf("%d", &n);
+       x=n*150;
+       printf("pizza=Rs %d",x); 
+
+       case 'S':
+        printf("you have choosen sandwich\n");
+       scanf("%d",&n);
+       x=n*90;
+       printf("sandwich=Rs%d",x);
+
+
+
+
+
+       
+    }
+    return 0;
+}
