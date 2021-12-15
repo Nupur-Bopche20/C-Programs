@@ -1,0 +1,43 @@
+#include<stdio.h>
+
+int main()
+
+{
+    int breadth, length , base , height , radius , pi=3.14 ,a1 , a2 ,a3;
+    char ss;
+    printf("Choose the shape of which area you wanna calculate\n");
+    printf("A-RECTANGLE\n");
+    printf("B-TRIANGLE\n");
+    printf("C-CIRCLE\n");
+
+    scanf("%c",&ss);
+     
+    switch (ss)
+    {
+    case 'A':
+             printf("Enter the value of Length and Breadth of rectangle respectively:");
+             scanf("%d%d", &length, &breadth);
+             a1=length*breadth;
+             printf("\n The area of rectangle is %d",a1);
+             break;
+
+     case'B':
+             printf("\n Enter the the value of base and height of triangle respectively:");
+             scanf("%d%d", &base , &height);
+             a2=((base*height)/2);
+             printf("\n The area of triangle is %d", a2);
+             break;
+
+     case'C':
+            printf("\n Enter thethe value of  radius of the circle:");
+             scanf("%d", &radius);
+             a3 = pi * radius*radius;
+             printf("\n The area of circle is %d", a3);
+             break;
+  
+
+
+    }
+
+        return 0;
+}
